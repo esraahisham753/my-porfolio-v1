@@ -1,0 +1,156 @@
+body {
+    background-color: #F4F27E;
+}
+.navbar-brand{
+    color: #49108B;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Rubik Bubbles';
+}
+.navbar-brand:hover {
+    color: #49108B;
+}
+.navbar-brand i {
+    color: #FFB000;
+}
+.nav-item a button {
+    background-color: #49108B;
+    border: none;
+    border-radius: 45px;
+    transition: transform 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    padding-bottom: 25%;
+}
+.nav-item a button:hover {
+    background-color: #49108B;
+    transform: scale(1.05, 1.05);
+}
+.container-fluid {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+main {
+    background-color: #FFF;
+    margin-top: -1%;
+    padding: 2% 2%;
+    border-radius: 1%;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 5%;
+    color: #f76540;
+}
+h1 i {
+    color: #aed8cc;
+}
+#main-article {
+    text-align: center;
+}
+#main-article h2 {
+    margin-bottom: 3%;
+}
+#main-article p, #articles-list p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #616161;
+}
+#main-article img {
+    margin-bottom: 5%;
+}
+#main-article a button {
+    background-color: #f76540;
+    border: none;
+}
+#articles-list {
+    padding: 3% 3%;
+}
+#articles-list .article {
+    margin-bottom: 5%;
+}
+.img-container {
+    padding-top: 1%;
+}
+#articles-list img {
+    width: 150px;
+    height: 140px;
+}
+#articles-list p {
+    margin-bottom: 0;
+}
+#articles-list a {
+    color: #f76540;
+    text-decoration: none;
+    font-weight: bold;
+}
+#more-wrapper {
+    text-align: center;
+}
+#more {
+    background-color: #49108B;
+    border: none;
+    border-radius: 45px;
+    font-size: 20px;
+    font-weight: bold;
+    width: 200px;
+    padding-bottom: 1%;
+}
+/*---------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+    .nav-item a button {
+        padding-bottom: 12%;
+    }
+    #main-article {
+        margin-bottom: 10%;
+    }
+    #articles-list {
+        text-align: center;
+    }
+    #articles-list img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 5%;
+    }
+    #articles-list p {
+        margin-bottom: 3%;
+    }
+    #more {
+        padding-bottom: 3%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .nav-item a button {
+        padding-bottom: 5%;
+    }
+    #articles-list img {
+        width: 100%;
+        height: 200px;
+        margin-bottom: 5%;
+    }
+    #articles-list {
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .nav-item a button {
+        padding-bottom: 25%;
+    }
+    #articles-list img {
+        width: 150px;
+        height: 140px;
+        margin-bottom: 0;
+    }
+    #articles-list {
+        text-align: left;
+    }
+    #articles-list p {
+        margin-bottom: 0;
+    }
+    #more {
+        padding-bottom: 1%;
+    }
+}
+

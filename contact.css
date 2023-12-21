@@ -1,0 +1,124 @@
+body {
+    background-image: url("./assets/background.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 635px;
+}
+.nav-item a button {
+    background-color: #49108B;
+    border: none;
+    border-radius: 45px;
+    transition: transform 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    padding-bottom: 25%;
+}
+.nav-item a button:hover {
+    background-color: #49108B;
+    transform: scale(1.05, 1.05);
+}
+.navbar-brand{
+    color: #49108B;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Rubik Bubbles';
+}
+.navbar-brand:hover {
+    color: #49108B;
+}
+.navbar-brand i {
+    color: #FFB000;
+}
+.container-fluid {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+h1 {
+    margin-bottom: 2%;
+    color: #f76540;
+}
+h1 i {
+    color:#49108B;
+}
+p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #616161;
+}
+p span {
+    color: #49108B;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-decoration: underline;
+}
+.fa-instagram {
+    color: #cd486b;
+}
+.jumbotron a {
+    font-size: 34px;
+    margin-left: 3%;
+}
+.social_accounts {
+    margin-top: 5%;
+}
+.fa-x-twitter,
+.fa-github,
+.fa-medium
+ {
+    color: #000;
+}
+
+.fa-linkedin {
+    color: #0077b5;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        height: 900px;
+    }
+    h1 {
+        margin-bottom: 15%;
+    }
+    p {
+        margin-top: 7%;
+        margin-bottom: 20%;
+    }
+    .nav-item a button {
+        padding-bottom: 12%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    body {
+        height: 1200px;
+    }
+
+    .nav-item a button {
+        padding-bottom: 5%;
+    }
+    h1 {
+        margin-bottom: 7%;
+    }
+    p {
+        margin-bottom: 10%;
+    }
+
+}
+@media only screen and (min-width: 992px) {
+    body {
+        height: 635px;
+    }
+
+    .nav-item a button {
+        padding-bottom: 25%;
+    }
+    h1 {
+        margin-bottom: 2%;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}

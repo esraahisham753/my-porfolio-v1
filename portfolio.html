@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik+Bubbles">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <link href="portfolio.css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="./assets/icon.png">
+        <title>Portfolio</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+           <!-- Navbar start -->
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="./index.html"><i class="fa-solid fa-wand-magic-sparkles"></i> ESTech</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                    <ul class="navbar-nav mb-2 mb-lg-0 ms-auto">
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./portfolio.html"><button type="button" class="btn btn-lg btn-primary">Portfolio</button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./blog.html"><button type="button" class="btn btn-lg btn-primary">Blog</button></a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./contact.html"><button type="button" class="btn btn-lgcode style.css btn-primary">Contact Me</button></a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+              <!-- Navbar End-->
+              <!-- Start main -->
+              <main>
+                <!-- Start education -->
+                <section id="education">
+                  <div class="row">
+                    <div class="col-sm-12 col-md-6 col-lg-5">
+                      <!-- start edu-img -->
+                      <div class="edu-img">
+                        <img src="./assets/faculty.jpg" alt="Ainshams university" class="img-fluid" />
+                      </div>
+                      <!-- end edu-img -->
+                    </div>
+                    <div class="col-sm-12 col-md-6 col-lg-7">
+                      <!-- Start edu-desc -->
+                      <div class="edu-desc">
+                        <h2><i class="fa-solid fa-book-open-reader"></i> Education</h2>
+                        <p>
+                          Bachelor of Computer and Information science 2019 <br><br>
+                          Ainshams University <br><br>
+                          Excellent with honors <br><br>
+                          Ranked 1st on Computer Science department <br><br>
+                          Courses: Structured Programming, Algorithms, Data structures, Object oriented programming, Linear algebra, probability,
+                          Statistics, Discrete math, calculus, AI, Deep Learning, Computer vision, cloud computing, ...
+                        </p>
+                        <a href="https://www.linkedin.com/in/esraa-abduallah-632117121/">Learn more <i class="fa-solid fa-circle-arrow-right"></i></a>
+                      </div>
+                      <!-- End edu-desc -->
+                    </div>
+                  </div>
+                </section>
+                <!-- End education -->
+                <!-- Start certificates -->
+                <section id="certificates">
+                  <h2><i class="fa-solid fa-glasses"></i> Certificates</h2>
+                  <p>
+                    I am always eager to learn new technologies and stay up-to-date, so I choose courses related to my interests which are: Design,
+                    Full Stack Web Development, DevOps, Cloud Computing and AI <br>
+                    Below, you can check some of those courses certificates. Click on the course to view the certificate.
+                  </p>
+                  <div class="row">
+                    <div class="col-sm-12 col-md-5 col-lg-7">
+                      <!-- Start cert-list -->
+                      <div id="cert-list"></div>
+                      <!-- End cert-list -->
+                    </div>
+                    <div class="col-sm-12 col-md-7 col-lg-5">
+                      <!-- Start cert-img -->
+                      <div class="img-container">
+                        <img id="cert-img" src="./assets/andela_react.jpeg" alt="Andela React Learning program" class="img-fluid" />
+                      </div>
+                      <!-- End cert-img -->
+                    </div>
+                  </div>
+                </section>
+                <!-- End certificates -->
+                <!-- Start projects -->
+                <section id="projects">
+                  <h2><i class="fa-solid fa-suitcase"></i> Projects</h2>
+                  <p>
+                    And here are some of my projects with demo for each of them
+                    Kindly hover on the project image to see its details
+                  </p>
+                  <div class="projects-list">
+                    <div class="row" id="projects-list-row"></div>
+                  </div>
+                </section>
+                <!-- End projects -->
+              </main>
+              <!-- End main -->
+            </div>
+            <script src="./portfolio.js"></script>
+            <script src="https://kit.fontawesome.com/ef7fafcbf6.js" crossorigin="anonymous"></script>
+        </body>

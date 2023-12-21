@@ -1,0 +1,206 @@
+body {
+    background-color: #F4F27E;
+}
+.navbar-brand{
+    color: #49108B;
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Rubik Bubbles';
+}
+.navbar-brand:hover {
+    color: #49108B;
+}
+.navbar-brand i {
+    color: #FFB000;
+}
+.navbar-brand:hover {
+    color: #49108B;
+}
+.nav-item a button {
+    background-color: #49108B;
+    border: none;
+    border-radius: 45px;
+    transition: transform 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 40px;
+    padding-bottom: 25%;
+}
+.nav-item a button:hover {
+    background-color: #49108B;
+    transform: scale(1.05, 1.05);
+}
+.container-fluid {
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2%;
+}
+main {
+    background-color: #FFF;
+    margin-top: -1%;
+    padding: 2% 2%;
+    border-radius: 1%;
+}
+section {
+    margin-bottom: 7%;
+}
+#education img {
+    height: 420px;
+}
+.edu-desc {
+    padding-left: 5%;
+}
+.edu-desc h2 {
+    color: #461959;
+    margin-bottom: 7%;
+}
+.edu-desc h2 i {
+    color: #aed8cc;
+}
+.edu-desc p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #616161;
+}
+.edu-desc a , .project a{
+    color: #f76540;
+    text-decoration: none;
+    font-weight: bold;
+}
+#certificates h2 {
+    text-align: center;
+    color: #461959;
+    margin-bottom: 2%;
+}
+#certificates h2 i {
+    color: #aed8cc;
+}
+#certificates p, #projects p{
+    color: #616161;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+#cert-list img {
+    width: 70px;
+}
+#cert-list .d-flex {
+    margin-bottom: 2%;
+}
+#cert-list h3:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+#cert-list span{
+    color: #616161;
+    font-weight: 500;
+    font-size: 18px;
+}
+#projects h2 {
+    text-align: center;
+    color: #461959;
+    margin-bottom: 2%;
+}
+#projects h2 i {
+    color: #aed8cc;
+}
+.project {
+    margin-bottom: 15%;
+    border: 2px solid #f76540;
+    border-radius: 3%;
+    padding: 3%;
+}
+.project img {
+    height: 300px;
+    margin-bottom: 5%;
+}
+.project p {
+    text-align: left !important;
+    margin-bottom: 0 !important;
+}
+/*-------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 600px) {
+    .nav-item a button {
+        padding-bottom: 12%;
+    }
+    .edu-desc {
+        margin-top: 7%;
+    }
+    .edu-desc p {
+        font-weight: 500;
+    }
+    section {
+        margin-bottom: 15%;
+    }
+    #certificates h2, #projects h2 {
+        margin-bottom: 2%;
+    }
+    #certificates p, #projects p {
+        margin-bottom: 10%;
+    }
+    #cert-list .d-flex {
+        margin-bottom: 10%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .nav-item a button {
+        padding-bottom: 5%;
+    }
+    #education img {
+        height: 500px;
+    }
+    .edu-desc p {
+        font-weight: 600;
+    }
+    #certificates p, #projects p {
+        margin-bottom: 7%
+    }
+    #cert-list h3 {
+        font-size: 20px;
+    }
+    #cert-list span {
+        font-weight: 400;
+    }
+    .img-container img {
+        height: 450px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .nav-item a button {
+        padding-bottom: 25%;
+    }
+    #education img {
+        height: 420px;
+    }
+    .edu-desc {
+        margin-top: 0%;
+    }
+    .edu-desc p {
+        font-weight: bold;
+    }
+    section {
+        margin-bottom: 7%;
+    }
+    #certificates h2, #projects h2 {
+        margin-bottom: 2%;
+    }
+    #certificates p, #projects p {
+        margin-bottom: 5%;
+    }
+    #cert-list .d-flex {
+        margin-bottom: 2%;
+    }
+    #cert-list h3 {
+        font-size: 24px;
+    }
+    #cert-list span {
+        font-weight: 500;
+    }
+    .img-container img {
+        height: auto;
+    }
+}
